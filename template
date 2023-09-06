@@ -1,0 +1,13 @@
+# Template file for 'easystroke'
+pkgname=easystroke
+version=0.6.0
+revision=1
+build_style=gnu-makefile
+depends=""
+makedepends="pkg-config boost-devel gtkmm-devel libXtst-devel dbus-glib-devel intltool xorg-server-devel"
+short_desc="X11 gesture recognition application"
+maintainer="thjaeger <Tom Jaeger>"
+license="ISC"
+homepage="https://github.com/KrystianD-contribution/easystroke"
+distfiles="${homepage}/archive/52c6c2b605bfe9a349b8b648fcb26d60af9d866f.tar.gz"
+checksum=cf518ca14f027a86c3adbd02254e7101f1d8f0e5f25eee8a76160bc83de3286d
